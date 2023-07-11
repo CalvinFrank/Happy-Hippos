@@ -1,0 +1,38 @@
+.login {
+  position: absolute;
+  width: 98vw;
+  height: 98vh;
+  border-radius: 4px;
+  background: rgba(76, 76, 76, 0.94);
+  margin: 1vh 1vw 1vh 1vw;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  background: white;
+  border-radius: inherit;
+  margin: 1.5vh 1.5vw 1.5vh 1.5vw;
+  width: 95vw;
+  height: 95vh;
+}
+.x {
+  margin-left: auto;
+  margin-right: 1.5px;
+  display: flex;
+  justify-content: center;
+  border: 0;
+  background: none;
+  padding: 0;
+  color: rgb(112, 112, 112);
+}
+.firstLine {
+  display: flex;
+  flex-direction: row;
+}
+.x:active {
+  color: rgba(112, 112, 112, 0.7);
+}
+.x:hover {
+  color: rgb(85, 85, 85);
+}

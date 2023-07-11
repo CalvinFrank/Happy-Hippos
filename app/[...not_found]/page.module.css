@@ -1,0 +1,20 @@
+.e404 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.e404 > h1 {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
+
+.click {
+  color: blue;
+  user-select: none;
+}
+
+.click:active {
+  color: darkblue;
+  cursor: grabbing;
+}

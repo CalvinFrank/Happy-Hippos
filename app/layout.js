@@ -1,16 +1,26 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from './header'
+import {AppWrapper} from "./context";
+// import E404 from './404';
 
 export const metadata = {
   title: 'Happy Hippos',
 }
 
+// function is404() {
+   
+// }
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <AppWrapper>
+      <html lang="en">
+        <body>
+          <Header/>
+          {children}
+          {/* <E404/> */}
+        </body>
+      </html>
+    </AppWrapper>
   )
 }
