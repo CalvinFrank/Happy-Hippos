@@ -1,0 +1,51 @@
+.game {
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+@media (max-width: 25000px) {
+  .game {
+    min-width: 300px;
+    width: 300px;
+    height: 300px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .game {
+    min-width: 218px;
+    width: 218px;
+    height: 218px;
+    max-height: 218px;
+  }
+}
+
+@media (max-width: 500px) {
+  .game {
+    max-height: 120px;
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+  }
+}
+
+.title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  height: 26%;
+  max-height: 30%;
+  width: 100%;
+}
+
+.thumbnail {
+  display: flex;
+  height: 74%;
+  width: 100%;
+  border-radius: 10px;
+}
+.game:hover {
+  opacity: 80%;
+}

@@ -29,10 +29,25 @@
 .firstLine {
   display: flex;
   flex-direction: row;
+  margin-bottom: 1.5vh;
 }
 .x:active {
   color: rgba(112, 112, 112, 0.7);
 }
 .x:hover {
   color: rgb(85, 85, 85);
+}
+
+.inner > h2 {
+  margin: 1vh 0 1vh 0;
+}
+
+.links {
+  display: flex;
+  gap: 1.5vw;
+}
+
+.links > a {
+  color: blue;
+  text-decoration: none;
 }

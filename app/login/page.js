@@ -1,5 +1,6 @@
-import styles from "./logIn.module.css"
-import { useAppContext } from "./../context";
+"use client"
+import styles from "./page.module.css"
+import { useAppContext } from "../context";
 
 export default function LogIn() {
   const {isClicked,setIsClicked} = useAppContext()
@@ -7,10 +8,16 @@ export default function LogIn() {
     <div className={styles.login}>
       <div className={styles.inner}>
         <div className={styles.firstLine}>
-          I am log in!!!!!!!!!!!!!!!!!!!!!!!!
+          <button>Log In</button>
           <button className={styles.x} onClick={() => {setIsClicked(false)}}>x</button>
         </div>
-        I am the next line
+        <hr />
+        <h2>or</h2>
+        <hr />
+        <div className={styles.links}>
+          <a href="/play">play as guest</a>
+          <a href="/createAnAccount">create an account</a>
+        </div>
       </div>
     </div>
     )

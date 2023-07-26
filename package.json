@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/postgrest-js": "^0.1.0",
+    "@supabase/realtime-js": "^0.1.0",
+    "@supabase/auth-helpers-nextjs": "^0.7.3",
+    "@supabase/supabase-js": "^2.29.0",
     "next": "13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"

@@ -9,3 +9,12 @@ body {
     linear-gradient(180deg,#5ed5c9, #5CDB95, #5ed5c9),
     linear-gradient(223deg, #00ff73, #00ff73, #42daa5, #00ff73, #00ff73);
 }
+hr {
+  margin: 0;
+  width: auto;
+  height: 1.5px;
+  margin-left: 0.5px;
+  margin-right: 0.5px;
+  background: linear-gradient(90deg, rgba(113, 113, 113, 0.204), rgba(113, 113, 113, 0.6), rgba(113, 113, 113, 0.811), rgba(113, 113, 113, 0.6), rgba(113, 113, 113, 0.204));
+  border: none;
+}
